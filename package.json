@@ -1,0 +1,15 @@
+{
+  "name": "joblingo",
+  "private": true,
+  "version": "0.1.0",
+  "workspaces": [
+    "backend",
+    "mobile"
+  ],
+  "scripts": {
+    "dev:backend": "npm run dev --workspace backend",
+    "build:backend": "npm run build --workspace backend",
+    "start:backend": "npm run start --workspace backend",
+    "lint:backend": "npm run lint --workspace backend"
+  }
+}
